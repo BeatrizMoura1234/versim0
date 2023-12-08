@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quem Somos</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+                <img class="logomenu" src="Ativo 3.png" alt="logo versimo" class="logomenu" width="150px">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Catálogo</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="quem-somos">
+        <img src="BIBLOTECASOBRENÓS.png" alt="biblioteca" class="biblioteca">
+        <h2>SOBRE NÓS:</h2>
+        <p>Na nossa livraria não vendemos apenas livros, oferecemos passaporte para o desconhecido.Estamos localizados em São Paulo-centro, temos o maior catalogo de livros relacionados a casos criminais de todas as livrarias do país.</p>
+        <h2>SOBRE A VERSÍMO:</h2>
+        <p>Versímo nasceu da paixão pela leitura e pelo conhecimento.Desde nossos humildes começos como uma pequena extensão da Verse, nos tornamos uma livraria que nutre mentes curiosas com uma seleção cuidadosa de obras ricas e inspiradoras.</p>
+    </div>
+    <footer class="rodape">
+
+        <img class="logomenu" src="Ativo21.png" alt="logo versimo" width="200px">
+
+        <img src="whatsapp.png" alt="whatsapp" width="50px">
+        <img src="instagram.png" alt="instagram" width="50px">
+        <img src="twitter.png" alt="twitter" width="50px">
+        <p>Copyright © 2023 bia | All Rights Reserved </p>
+        </class>
+        
+        </div>
+
+    </footer>
+        
+        </div>
+
+    </footer>
+
+    <!-- Conteúdo da Página Principal -->
+    <h1>Meu Site</h1>
+
+    <!-- Pop-up Container -->
+    <div class="popup-caixa" id="popup">
+        <div class="popup-conteudo">
+            <span class="fechar" onclick="fecharPopup()">&times;
+            </span>
+            <p>Seja Bem vindo!</p>
+            <p>Ganhe 10% de dsesconto na primeira compra com o cupom "livrossuspenses17"</p>
+            <img class="img" src="rua_do_medo.jpg" alt="img">
+        </div>
+
+    </div>
+
+    <!-- Botão para abrir o Pop-up -->
+
+    <script src="script.js"></script>
+
+    <script>
+        setTimeout(function () {
+            abrirPopup ();
+        }, 5000);
+
+        setTimeout(function() {
+            fecharPopup();
+        }, 10000);
+        
+        // Função para abrir o pop-up
+        function abrirPopup() {
+            popup.style.display = "block";
+        }
+
+        // Função para fechar o pop-up
+        function fecharPopup() {
+            var popup = document.getElementById("popup");
+            popup.style.display = "none";
+        }
+
+    </script>
+</body>
+</html>
